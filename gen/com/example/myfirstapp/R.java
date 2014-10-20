@@ -1077,7 +1077,9 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
+        public static final int actionbar_background=0x7f020057;
+        public static final int ic_action_search=0x7f020058;
+        public static final int ic_launcher=0x7f020059;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1091,6 +1093,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
+        public static final int action_search=0x7f05003e;
         public static final int action_settings=0x7f05003d;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
@@ -1200,6 +1203,7 @@ containing a value of this type.
     public static final class menu {
         public static final int display_message=0x7f0c0000;
         public static final int main=0x7f0c0001;
+        public static final int main_activity_actions=0x7f0c0002;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1242,6 +1246,7 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
+        public static final int action_search=0x7f0a0014;
         public static final int action_settings=0x7f0a0010;
         public static final int app_name=0x7f0a000d;
         public static final int button_send=0x7f0a000f;
@@ -1277,6 +1282,8 @@ containing a value of this type.
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0b008c;
+        public static final int CustomActionBarTheme=0x7f0b008d;
+        public static final int MyActionBar=0x7f0b008e;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0063;

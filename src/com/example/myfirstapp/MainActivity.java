@@ -18,7 +18,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         
         //Set the text view as the activity layout
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_display_message);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 
