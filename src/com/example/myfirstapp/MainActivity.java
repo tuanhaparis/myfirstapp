@@ -36,7 +36,7 @@ public class MainActivity extends ActionBarActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+    	
         switch(item.getItemId()) {
         	case R.id.action_search:
         		openSearch();
@@ -49,7 +49,27 @@ public class MainActivity extends ActionBarActivity {
 
         }
     }
-    /** Called when the user clicks the Send button */
+    private void openSetting() {
+		// TODO Auto-generated method stub
+    	Intent intent = new Intent(this, DisplayMessageActivity.class);
+    	String message = "Chao cac ban, cac ban dang o trang setting";
+    	intent.putExtra(EXTRA_MESSAGE, message);
+    	startActivity(intent);
+		
+	}
+
+
+	private void openSearch() {
+		// TODO Auto-generated method stub
+    	Intent intent = new Intent(this, DisplayMessageActivity.class);
+    	String message = "Chao cac ban, cac ban dang o trang search";
+    	intent.putExtra(EXTRA_MESSAGE, message);
+    	startActivity(intent);
+		
+	}
+
+
+	/** Called when the user clicks the Send button */
     public void sendMessage(View view){
     	//Do something in response to button
     	Intent intent = new Intent(this, DisplayMessageActivity.class);
